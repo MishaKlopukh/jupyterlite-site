@@ -8,6 +8,9 @@ jupyterlite-pyodide-kernel==0.0.10
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.1.1
 
+# WAForth kernel (optional)
+jupyterlite-waforth-kernel @ git+https://github.com/MishaKlopukh/jupyterlite-waforth-kernel
+
 # Language support (optional)
 jupyterlab-language-pack-fr-FR
 jupyterlab-language-pack-zh-CN
