@@ -1,29 +1,31 @@
-# JupyterLite Demo
+# JupyterLite Instance
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+Misha's [JupyterLite](https://jupyterlite.readthedocs.io/) deployment.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+## Installed Extensions
 
-## ✨ Try it in your browser ✨
+### Kernels
 
-➡️ **https://jupyterlite.github.io/demo**
+- jupyterlite-pyodide-kernel==0.0.10
+- jupyterlite-javascript-kernel==0.1.1
+- jupyterlite-waforth-kernel @ git+https://github.com/MishaKlopukh/jupyterlite-waforth-kernel
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+### Themes
 
-## Requirements
+- jupyterlab-night
 
-JupyterLite is being tested against modern web browsers:
+### Python
 
-- Firefox 90+
-- Chromium 89+
+- ipywidgets>=8.0.0,<9
+- ipyevents>=2.0.1
+- ipympl>=0.8.2
+- ipycanvas>=0.9.1
+- ipyleaflet
+- plotly>=5,<6
+- bqplot
 
-## Deploy your JupyterLite website on GitHub Pages
+### Other
 
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+- jupyterlab-fasta>=3,<4
+- jupyterlab-geojson>=3,<4
+- jupyterlab-webrtc-docprovider
