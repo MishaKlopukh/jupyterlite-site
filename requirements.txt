@@ -9,7 +9,7 @@ jupyterlite-pyodide-kernel==0.0.10
 jupyterlite-javascript-kernel==0.1.1
 
 # WAForth kernel (optional)
-jupyterlite-waforth-kernel @ git+https://github.com/MishaKlopukh/jupyterlite-waforth-kernel@588a7aba73c580a66a5351e7211676a17dbde8f4
+jupyterlite-waforth-kernel @ git+https://github.com/MishaKlopukh/jupyterlite-waforth-kernel@af7edda0ef2a48dee63b931a5751d8338fe11bad
 
 # JupyterLab: Fasta file renderer (optional)
 jupyterlab-fasta>=3,<4
